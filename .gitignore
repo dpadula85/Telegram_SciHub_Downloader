@@ -1,0 +1,49 @@
+# Telegram authentication session (sensitive!)
+*.session
+*.session-journal
+*.session-wal
+*.session-shm
+
+# Environment variables / credentials
+.env
+.env.*
+!.env.example
+
+# Personal DOI list (dois.example.txt is the tracked template)
+dois.txt
+
+# Downloaded papers and generated output
+papers/
+downloads/
+*.pdf
+
+# Local databases and logs
+*.sqlite
+*.sqlite3
+*.db
+*.log
+
+# Python
+__pycache__/
+*.egg-info/
+build/
+dist/
+*.py[cod]
+.venv/
+venv/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+

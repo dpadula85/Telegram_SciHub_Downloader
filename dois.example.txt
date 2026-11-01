@@ -1,0 +1,4 @@
+# One DOI per line; DOI URLs are accepted; lines starting with # are ignored.
+10.1038/s41586-020-2649-2
+10.1021/jp400894v
+https://doi.org/10.1000/example
