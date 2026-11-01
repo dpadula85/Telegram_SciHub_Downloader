@@ -1,9 +1,9 @@
 ---
-name: doi-paper-downloader
-description: Download the PDF of a scientific paper from its DOI with the doi-paper-downloader tool (it asks a configured Telegram bot/chat through the user's own Telegram account). Use whenever the user asks for the PDF or full text of a paper, gives DOIs or doi.org links to fetch, or when you need a paper's full text to answer and only have its DOI or citation. Covers how to run it, how to check the result, and the hard rules about the credential files (.env, *.session), which must never be read.
+name: telegram-scihub-downloader
+description: Download the PDF of a scientific paper from its DOI with the Telegram_SciHub_Downloader tool (command `doi-paper-downloader`), which asks a configured Telegram bot/chat through the user's own Telegram account. Use whenever the user asks for the PDF or full text of a paper, gives DOIs or doi.org links to fetch, or when you need a paper's full text to answer and only have its DOI or citation. Covers how to run it, how to check the result, and the hard rules about the credential files (.env, *.session), which must never be read.
 ---
 
-# doi-paper-downloader
+# Telegram_SciHub_Downloader
 
 Sends each DOI to a Telegram bot/chat through the user's logged-in Telegram account and saves the returned PDF as `<DOI with / -> _>.pdf`. Full user documentation is in the repo `README.md`.
 
@@ -20,7 +20,7 @@ Sends each DOI to a Telegram bot/chat through the user's logged-in Telegram acco
 The repo root is three levels above this skill's resolved path:
 
 ```bash
-REPO=$(readlink -f ~/.claude/skills/doi-paper-downloader/../../..)
+REPO=$(readlink -f ~/.claude/skills/telegram-scihub-downloader/../../..)
 ```
 
 Prefer the installed command `doi-paper-downloader`. If it is not on the PATH, run from the repo without installing (prepend, never assign, `PYTHONPATH`):

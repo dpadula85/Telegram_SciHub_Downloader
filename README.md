@@ -144,9 +144,9 @@ your bot needs a command or another format, change the `send_message` call in
 ## Use from Claude Code
 
 The repository ships a Claude Code skill that lets Claude fetch papers for you
-with this tool: [.claude/skills/doi-paper-downloader](.claude/skills/doi-paper-downloader/SKILL.md).
+with this tool: [.claude/skills/telegram-scihub-downloader](.claude/skills/telegram-scihub-downloader/SKILL.md).
 Link it once with
-`ln -s "$PWD/.claude/skills/doi-paper-downloader" ~/.claude/skills/`.
+`ln -s "$PWD/.claude/skills/telegram-scihub-downloader" ~/.claude/skills/`.
 
 ## Package layout
 
